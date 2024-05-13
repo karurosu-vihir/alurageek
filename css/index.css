@@ -1,0 +1,216 @@
+*,*::before,
+*::after{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Menu de Navegacion */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-radius: 0px 0px 30px 30px;
+    padding: 10px;
+    background-color: purple;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+/* Boton de Crear */
+.crear-boton{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.crear-boton img{
+    width: 10px;
+    min-width: 40px;   
+}
+
+.crear-boton h2{
+    font-size: 30px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+/* Logo */
+.logo{
+    width: 350px;
+    height: 150px;
+}
+
+/* Barra de Busqueda  */
+.Buscar{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.Buscar a img{
+    width: 35px;
+    height: 35px;
+    min-width: 10px;
+    background-color: whitesmoke;
+    flex-grow: 0;
+}
+
+.Buscar input{
+    font-size: 20px;
+    padding: 5px;
+    width: 50%;
+    min-width: 240px;
+}
+
+/* Espacio */
+.menu_espacio{
+    height: 150px;
+}
+
+/* Agregar Para telefono */
+.crear-telefono{
+    display: none;
+}
+
+/* Lo demas */
+.containers{
+    width: 90%;
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 70px; */
+    display: grid;
+    row-gap: 50px;
+    column-gap: 70px;
+    grid-template-columns: repeat(auto-fill, 186px);
+    justify-content: center;
+    margin: 0 5%;
+}
+
+.container{
+    background-color: blue;
+    padding: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+    max-width: 204px;
+    min-width: 204px;
+    max-height: 320px;
+    min-height: 320px;
+    /* Apply a box shadow */
+    box-shadow: inset 0 0 0 3px black, 0 0 5px 3px gray;
+    
+    border-radius: 1.2em;
+
+}
+
+.producto{
+    max-width: 174px;
+    min-width: 174px;
+    max-height: 176px;
+    min-height: 176px;
+    border: 5px solid black;
+    border-radius: 1.5em;
+}
+
+.controles{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.detalles{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: antiquewhite;
+    gap: 20px;
+}
+
+.detalles .titulo{
+    font-size: 1.2em;
+}
+
+.detalles .precio{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.controles a{
+    align-self: flex-end;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.basura{
+    max-width: 30px;
+    min-width: 30px;
+    max-height: 30px;
+    min-height: 30px;
+}
+
+
+/* pie */
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    background: url(../img/bg.jpg);
+    color: whitesmoke;
+}
+
+@media (max-width: 900px) {
+    .Buscar{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .cabecera{
+        justify-content: center;
+    }
+    .crear{
+        display: none;
+    }
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
+    .crear-telefono{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .crear-boton{
+        border: 3px solid black;
+        border-radius: 20px;
+        gap: 20px;
+    }
+    .crear-boton h2{
+        color: black;
+    }
+    .menu_espacio-telefono{
+        height: 40px;
+    }
+}
+
