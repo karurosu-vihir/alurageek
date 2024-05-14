@@ -1,0 +1,15 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Desafio de alura one en el que se nos dio la tarea de repasar conceptos de javascript\r <h2>Autor:</h2> \r <ul>\r   <li> Carlos Eduardo Vijil Maldonado</li>\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

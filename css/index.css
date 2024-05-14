@@ -151,7 +151,7 @@ header{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    gap: 10px;
+    gap: 0;
 }
 
 .detalles{
@@ -160,16 +160,16 @@ header{
     align-items: flex-start;
     justify-content: flex-start;
     color: antiquewhite;
-    gap: 20px;
+    gap: 10px;
 }
 
 .detalles .titulo{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .detalles .precio{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .controles a{
