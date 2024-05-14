@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>AluraGeek</title>
+</head>
+<header>
+    <!-- Navegacion -->
+    <div class="cabecera">
+        <div class="logos">
+            <a href="../index.html"><img src="../img/Logo.png" alt=""></a>
+        </div>
+    </div>
+</header>
+<body>
+    <!-- Espacio -->
+    <div class="menu_espacio"></div>
+    <!-- Contenido -->
+    <h1 class="titulo_contenido">Agregar Producto:</h1>
+    <form>
+        <label for="nombre">Ingrese el nombre del Producto:</label>
+        <input type="text" class="nombre" name="nombre" placeholder="nombre del producto" maxlength="25" minlength="3">
+        <label for="precio">Ingrese el precio del Producto:</label>
+        <input type="number" class="precio" name="precio" placeholder="Ej: 90.00">
+        <label for="imagen">Ingrese el URL de la Imagen:</label>
+        <input type="text" class="imagen" name="imagen" placeholder="Ej: http:// .jpeg">
+        <div class="form_botones">
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpiar">
+        </div>
+    </form>
+</body>
+<footer>
+    <div class="pie">
+        <p>Desarollado por Carlos E. Vijil Maldonado</p>
+        <p>2024</p>
+    </div>
+</footer>
+<script src="js/index.js"></script>
+</html>

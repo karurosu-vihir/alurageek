@@ -1,10 +1,19 @@
 *,*::before,
 *::after{
     box-sizing: border-box;
+}
+
+html{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
 }
+
+/* .press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+ */
 
 /* Menu de Navegacion */
 
@@ -44,6 +53,8 @@ header{
     font-size: 30px;
     font-weight: bolder;
     color: whitesmoke;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
 }
 
 /* Logo */
@@ -87,6 +98,15 @@ header{
 }
 
 /* Lo demas */
+.titulo_contenido{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 80px;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+}
+
 .containers{
     width: 90%;
     /* display: flex;
@@ -181,10 +201,12 @@ header{
     .Buscar{
         display: none;
     }
-    
+    .titulo_contenido{
+        font-size: 50px;
+    }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 640px) {
     .cabecera{
         justify-content: center;
     }
@@ -203,8 +225,9 @@ header{
     }
     .crear-boton{
         border: 3px solid black;
-        border-radius: 20px;
+        border-radius: 1.5em;
         gap: 20px;
+        padding: 15px;
     }
     .crear-boton h2{
         color: black;
@@ -212,5 +235,7 @@ header{
     .menu_espacio-telefono{
         height: 40px;
     }
+    .titulo_contenido{
+        font-size: 40px;
+    }
 }
-

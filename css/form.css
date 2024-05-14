@@ -1,0 +1,48 @@
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 0 20%;
+    gap: 30px;
+}
+
+input{
+    border: 3px solid blue;
+    border-radius: 2em;
+    width: inherit;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+input:focus{
+    color: navy;
+}
+
+.form_botones{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form_botones input{
+    width: 30%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    min-width: 103px;
+    margin-bottom: 80px;
+}
+
+.form_botones input:last-child{
+    border: 5px solid blue;
+    color: blue;
+    background-color: whitesmoke;
+}
+
+label{
+    justify-self: flex-start;
+    font-size: 25px;
+    font-weight: 500;
+}

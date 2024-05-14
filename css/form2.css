@@ -1,0 +1,27 @@
+.titulo_contenido{
+    margin-bottom: 0;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.guardado{
+    width: 30%;
+}
+
+.center a{
+    border: 3px solid blue;
+    border-radius: 2em;
+    padding: 10px;
+    font-size: 20px;
+    width: 30%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    min-width: 103px;
+    margin-bottom: 40px;
+    text-align: center;
+}
