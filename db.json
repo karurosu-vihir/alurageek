@@ -1,40 +1,52 @@
 {
-    "productos": [
-      {
-        "id": "1",
-        "titulo": "Playstation 5",
-        "precio": "$ 449.99",
-        "imagem": "https://media.gamestop.com/i/gamestop/20009347/Sony-PlayStation-5-Slim-Console-Digital-Edition?$pdp2x$"
-      },
-      {
-        "id": "2",
-        "titulo": "NES World Champion Edition",
-        "precio": "1,5 mil visualizaciones",
-        "imagem": "https://media.gamestop.com/i/gamestop/20012696?$pdp2x$"
-      },
-      {
-        "id": "3",
-        "titulo": "Xbox Series X",
-        "precio": "$ 500.00",
-        "imagem": "https://media.gamestop.com/i/gamestop/11108371?$pdp2x$$&fmt=webp"
-      },
-      {
-        "id": "4",
-        "titulo": "Paper Mario: The Thousand Year Door",
-        "precio": "$ 59.99",
-        "imagem": "https://media.gamestop.com/i/gamestop/20009003/Paper-Mario-The-Thousand-Year-Door---Nintendo-Switch?$pdp2x$"
-      },
-      {
-        "id": "5",
-        "titulo": "Nintendo Switch White",
-        "precio": "$ 350.50",
-        "imagem": "https://media.gamestop.com/i/gamestop/11149258?$pdp2x$"
-      },
-      {
-        "id": "6",
-        "titulo": "MacFarlane Toys; Batman vs Bane (Knightfall)",
-        "precio": "$ 70.00",
-        "imagem": "https://media.gamestop.com/i/gamestop/11149258?$pdp2x$"
-      }
-    ]
-  }
+  "productos": [
+    {
+      "id": "1",
+      "titulo": "Playstation 5",
+      "precio": "449.99",
+      "imagen": "https://media.gamestop.com/i/gamestop/20009347/Sony-PlayStation-5-Slim-Console-Digital-Edition?$pdp2x$"
+    },
+    {
+      "id": "2",
+      "titulo": "NES World Champion Edition",
+      "precio": "60.00",
+      "imagen": "https://media.gamestop.com/i/gamestop/20012696?$pdp2x$"
+    },
+    {
+      "id": "3",
+      "titulo": "Xbox Series X",
+      "precio": "500.00",
+      "imagen": "https://media.gamestop.com/i/gamestop/11108371?$pdp2x$$&fmt=webp"
+    },
+    {
+      "id": "4",
+      "titulo": "Paper Mario: The Thousand Year Door",
+      "precio": "59.99",
+      "imagen": "https://media.gamestop.com/i/gamestop/20009003/Paper-Mario-The-Thousand-Year-Door---Nintendo-Switch?$pdp2x$"
+    },
+    {
+      "id": "5",
+      "titulo": "Nintendo Switch White",
+      "precio": "350.50",
+      "imagen": "https://media.gamestop.com/i/gamestop/11149258?$pdp2x$"
+    },
+    {
+      "id": "6",
+      "titulo": "MacFarlane Toys; Batman vs Bane (Knightfall)",
+      "precio": "70.00",
+      "imagen": "https://media.gamestop.com/i/gamestop/11149258?$pdp2x$"
+    },
+    {
+      "titulo": "The Legend of Zelda; Master Sword",
+      "precio": "199.99",
+      "imagen": "https://media.gamestop.com/i/gamestop/20012853?$pdp2x$",
+      "id": "BrnIqqf"
+    },
+    {
+      "titulo": "Xbox Series S",
+      "precio": "299.99",
+      "imagen": "https://media.gamestop.com/i/gamestop/11207109?$pdp2x$",
+      "id": "9lEdHBU"
+    }
+  ]
+}

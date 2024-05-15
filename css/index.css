@@ -185,6 +185,33 @@ header{
     min-height: 30px;
 }
 
+.Regcargar_productos{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.Regcargar{
+    display: flex;
+    flex-flow: row;
+    border: 1px solid lightblue;
+    border-radius: 1.5em;
+    background-color: lightblue;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.Regcargar h2{
+    color: whitesmoke;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Regcargar img{
+    width: 80px;
+}
 
 /* pie */
 .pie{

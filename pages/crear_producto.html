@@ -27,14 +27,14 @@
     <h1 class="titulo_contenido">Agregar Producto:</h1>
     <form>
         <label for="nombre">Ingrese el nombre del Producto:</label>
-        <input type="text" class="nombre" name="nombre" placeholder="nombre del producto" maxlength="40" minlength="3">
+        <input type="text" class="nombre" name="nombre" placeholder="nombre del producto" maxlength="40" minlength="3" data-input>
         <label for="precio">Ingrese el precio del Producto:</label>
-        <input type="number" class="precio" name="precio" placeholder="Ej: 90.00">
+        <input type="number" step=".01" class="precio" name="precio" placeholder="Ej: 90.00" data-input>
         <label for="imagen">Ingrese el URL de la Imagen:</label>
-        <input type="text" class="imagen" name="imagen" placeholder="Ej: http:// .jpeg">
+        <input type="text" class="imagen" name="imagen" placeholder="Ej: http:// .jpeg" data-input>
         <div class="form_botones">
-            <input type="submit" value="Enviar">
-            <input type="submit" value="Limpiar">
+            <input type="submit" value="Enviar" data-enviar>
+            <input type="submit" value="Limpiar" data-limpiar>
         </div>
     </form>
 </body>
@@ -44,5 +44,5 @@
         <p>2024</p>
     </div>
 </footer>
-<script src="js/index.js"></script>
+<script src="../js/form.js" type="module"></script>
 </html>

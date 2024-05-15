@@ -27,7 +27,7 @@
 
         <div class="Buscar">
             <input type="text" placeholder="Buscar..">
-            <a href="#"> <img src="img/lupa.png" alt=""></a>
+            <a data-lupa><img src="img/lupa.png" alt=""></a>
         </div>
 
     </div>
@@ -47,108 +47,16 @@
 
     <h1 class="titulo_contenido">Mis Productos:</h1>
 
-    <ul class="containers">
-        <li class="container">
-            <img src="https://media.gamestop.com/i/gamestop/20009347/Sony-PlayStation-5-Slim-Console-Digital-Edition?$pdp2x$" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">MacFarlane Toys; Batman vs Bane (Knightfall)</p>
-                    <p class="precio">$ 4490.00</p>
-                </div>
-                <a href="#"><img src="img/basura.png" alt="" class="basura"></a>
-            </div>
-        </li>
-        <li class="container">
-            <img src="img/unsplash_6FDXGY9J6y4.jpg" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">StormTrooper from Star Wars</p>
-                    <p class="precio">$ 40.00</p>
-                </div>
-                <img src="img/basura.png" alt="" class="basura">
-            </div>
-        </li>
-        <li class="container">
-            <img src="img/unsplash_6FDXGY9J6y4.jpg" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">StormTrooper Star Wars</p>
-                    <p class="precio">$ 40.00</p>
-                </div>
-                <img src="img/basura.png" alt="" class="basura">
-            </div>
-        </li>
-        <li class="container">
-            <img src="img/unsplash_6FDXGY9J6y4.jpg" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">StormTrooper from Star Wars</p>
-                    <p class="precio">$ 40.00</p>
-                </div>
-                <img src="img/basura.png" alt="" class="basura">
-            </div>
-        </li>
-        <li class="container">
-            <img src="img/unsplash_6FDXGY9J6y4.jpg" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">StormTrooper from Star Wars</p>
-                    <p class="precio">$ 40.00</p>
-                </div>
-                <img src="img/basura.png" alt="" class="basura">
-            </div>
-        </li>
-        <li class="container">
-            <img src="img/unsplash_6FDXGY9J6y4.jpg" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">StormTrooper from Star Wars</p>
-                    <p class="precio">$ 40.00</p>
-                </div>
-                <img src="img/basura.png" alt="" class="basura">
-            </div>
-        </li>
-        <li class="container">
-            <img src="img/unsplash_6FDXGY9J6y4.jpg" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">StormTrooper from Star Wars</p>
-                    <p class="precio">$ 40.00</p>
-                </div>
-                <img src="img/basura.png" alt="" class="basura">
-            </div>
-        </li>
-        <li class="container">
-            <img src="img/unsplash_6FDXGY9J6y4.jpg" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">StormTrooper from Star Wars</p>
-                    <p class="precio">$ 40.00</p>
-                </div>
-                <img src="img/basura.png" alt="" class="basura">
-            </div>
-        </li>
-        <li class="container">
-            <img src="img/unsplash_6FDXGY9J6y4.jpg" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">StormTrooper from Star Wars</p>
-                    <p class="precio">$ 40.00</p>
-                </div>
-                <img src="img/basura.png" alt="" class="basura">
-            </div>
-        </li>
-        <li class="container">
-            <img src="img/unsplash_6FDXGY9J6y4.jpg" alt="" class="producto">
-            <div class="controles">
-                <div class="detalles">
-                    <p class="titulo">StormTrooper from Star Wars</p>
-                    <p class="precio">$ 40.00</p>
-                </div>
-                <img src="img/basura.png" alt="" class="basura">
-            </div>
-        </li>
+    <ul class="containers" data-cards>
+        
     </ul>
+    <div class="menu_espacio"></div>
+    <div class="Regcargar_productos">
+        <a href="#" class="Regcargar" data-reload>
+            <h2>Regcargar</h2>
+            <img src="img/arrowreload_flecha_1318.png" alt="">
+        </a>
+    </div>
     <div class="menu_espacio"></div>
 </body>
 <footer>
@@ -157,5 +65,5 @@
         <p>2024</p>
     </div>
 </footer>
-<script src="js/index.js"></script>
+<script src="js/index.js" type="module"></script>
 </html>
