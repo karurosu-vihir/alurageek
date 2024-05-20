@@ -22,12 +22,16 @@ function creartarjeta(titulo,precio,img,indice){
 }
 
 async function mostrar(){
-    const cards = await conexion.getcard();
+    try{
+        const cards = await conexion.getcard();
 
-    cards.forEach(card => {
-        containers.appendChild(creartarjeta(card.titulo,card.precio,card.imagen,card.id))
-    });
-    // btns_basureros = document.querySelectorAll('.basu');
+        cards.forEach(card => {
+            containers.appendChild(creartarjeta(card.titulo,card.precio,card.imagen,card.id))
+        });
+    }
+    catch{
+        alert("Hubo un error a la de acceder a la fuente de datos");
+    }
 }
 
 async function filtrar(evento){

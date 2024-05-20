@@ -18,6 +18,10 @@ async function postcard(titulo,precio,img){
 
     const productosjson = await productos.json();
 
+    if(!productos.ok){
+        throw new Error("Hubo un problema con la conexion");
+    }
+
     return productosjson;
 }
 

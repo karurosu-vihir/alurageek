@@ -28,10 +28,14 @@ async function crear(evento){
     const precio = document.querySelector('.precio').value;
     const img = document.querySelector('.imagen').value;
 
-    // console.log("preventDefault:" + titulo + precio + img)
-    await conexion.postcard(titulo,precio,img);
+    try{
+        await conexion.postcard(titulo,precio,img);
 
-    window.location.href = "../pages/crear_producto2.html"
+        window.location.href = "../pages/crear_producto2.html"
+    }
+    catch(e){
+        alert(e);
+    }
 };
 
 // Validaciones:
