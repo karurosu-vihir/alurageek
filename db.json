@@ -7,12 +7,6 @@
       "imagen": "https://media.gamestop.com/i/gamestop/20009347/Sony-PlayStation-5-Slim-Console-Digital-Edition?$pdp2x$"
     },
     {
-      "id": "2",
-      "titulo": "NES World Champion Edition",
-      "precio": "60.00",
-      "imagen": "https://media.gamestop.com/i/gamestop/20012696?$pdp2x$"
-    },
-    {
       "id": "3",
       "titulo": "Xbox Series X",
       "precio": "500.00",
@@ -47,6 +41,12 @@
       "precio": "299.99",
       "imagen": "https://media.gamestop.com/i/gamestop/11207109?$pdp2x$",
       "id": "9lEdHBU"
+    },
+    {
+      "titulo": "Minecraft para pc",
+      "precio": "14.24",
+      "imagen": "https://media.gamestop.com/i/gamestop/11207363?$pdp2x$",
+      "id": "7kxb3ct"
     }
   ]
 }

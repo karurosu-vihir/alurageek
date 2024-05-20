@@ -6,6 +6,13 @@ form{
     gap: 30px;
 }
 
+fieldset{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+
 input{
     border: 3px solid blue;
     border-radius: 2em;
@@ -18,6 +25,16 @@ input{
 input:focus{
     color: navy;
 }
+
+.error {
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .925rem;
+    color: red;
+}
+
 
 .form_botones{
     display: flex;

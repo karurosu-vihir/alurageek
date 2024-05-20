@@ -25,13 +25,22 @@
     <div class="menu_espacio"></div>
     <!-- Contenido -->
     <h1 class="titulo_contenido">Agregar Producto:</h1>
-    <form>
+    <form data-form>
+        <fieldset>
         <label for="nombre">Ingrese el nombre del Producto:</label>
-        <input type="text" class="nombre" name="nombre" placeholder="nombre del producto" maxlength="40" minlength="3" data-input>
+        <input type="text" class="nombre" name="nombre" placeholder="nombre del producto" maxlength="40" minlength="3" required data-input>
+        <span class="error"></span>
+        </fieldset>
+        <fieldset>
         <label for="precio">Ingrese el precio del Producto:</label>
-        <input type="number" step=".01" class="precio" name="precio" placeholder="Ej: 90.00" data-input>
+        <input type="text" step=".01" class="precio" name="precio" placeholder="Ej: 90.00" pattern="^\d+(\.\d{1,2})?$" required data-input>
+        <span class="error"></span>
+        </fieldset>
+        <fieldset>
         <label for="imagen">Ingrese el URL de la Imagen:</label>
-        <input type="text" class="imagen" name="imagen" placeholder="Ej: http:// .jpeg" data-input>
+        <input type="text" class="imagen" name="imagen" placeholder="Ej: http://..." pattern="https?://.*" required data-input>
+        <span class="error"></span>
+        </fieldset>
         <div class="form_botones">
             <input type="submit" value="Enviar" data-enviar>
             <input type="submit" value="Limpiar" data-limpiar>

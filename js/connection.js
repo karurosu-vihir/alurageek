@@ -24,10 +24,15 @@ async function postcard(titulo,precio,img){
 async function buscarcard(busqueda){
     const productos = await fetch(`http://localhost:3000/productos?q=${busqueda}`);
     const productosjson = await productos.json();
-
     return productosjson;
 }
 
+async function deletecard(id){
+    const producto = await fetch(`http://localhost:3000/productos/${id}`,{
+        method:'DELETE'
+    });
+}
+
 export const conexion ={
-    getcard, postcard, buscarcard
+    getcard, postcard, buscarcard, deletecard
 }
